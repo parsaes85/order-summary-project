@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body{
+      background-image: url(images/pattern-background-desktop.png);
+      background-color: hsl(225, 100%, 94%);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    main{
+      padding: 80px;
+      width: 155px;
+      background-color: white;
+      margin: auto;
+      border-radius: 15px;
+      height: 345px;
+      position: relative;
+      
+    }
+
+    .main-img{
+      width: 315px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      
+    }
+
+    section{
+     margin-top: 65%; 
+     font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .header{
+      color: hsl(223, 47%, 23%);
+      font-size: 19px;
+      font-weight: 900;
+    }
+
+    .paraghraf{
+      color: hsla(224, 23%, 55%, 0.9);
+      margin-top: -2px;
+      font-size: 13px;
+      font-weight: 100;
+      text-align: center;
+      line-height: 18px;
+      font-weight: 500;
+    }
+    .paraghraf p{
+      position: absolute;
+      left:40px;
+    }
+
+    .annual-plan-frame{
+      margin-top: 54%;
+      background-color:  hsl(225, 100%, 98%);
+      padding: 21px;
+      width: 230px;
+      margin-left: -55px;
+      border-radius: 8px;
+    }
+
+    .music-icon{
+      float: left;
+      width: 35px;
+    }
+
+    .change{
+      float: right;
+      margin-top: 7px;
+      font-size: 13px;
+    }
+
+    .change a{
+      color:  hsl(245, 75%, 52%);
+    }
+
+    .change a:hover{
+      color: hsla(245, 75%, 52%, 0.8);
+    }
+
+    #annual-price{
+      margin-left: 47px;
+    }
+
+    .annual-plan{
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .price{
+      color:  hsl(224, 23%, 55%);
+      font-size: 13px;
+    }
+
+    .accept-button{
+      background-color:hsl(245, 75%, 52%);
+      padding: 12px;
+      color: hsl(225, 100%, 98%);
+      width: 240px;
+      margin-left: -53px;
+      margin-top: 25px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0px 4px 18px  hsl(224, 23%, 55%);
+    }
+
+    .accept-button:hover{
+      background-color: hsla(245, 75%, 52%, 0.7);
+    }
+
+    .cancel-button{
+      color: hsl(224, 23%, 55%);
+      margin-top: 25px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .cancel-button:hover{
+      color: hsl(223, 47%, 23%);
+    }
+
+    .end { 
+      font-size: 11px;
+      text-align: center; 
+      margin-top: 25px;
+    }
+
+  </style>
+</head>
+<body>
+
+
+  <main>
+
+    <dv>
+      <img class="main-img" src="images/illustration-hero.png">
+    </dv>
+
+    <section>
+      <div class="texts">
+
+        <div class="header">
+          Order Summary
+        </div>
+
+        <div class="paraghraf">
+          <p>
+            You can now listen to millions of songs,<br> audiobooks, and podcasts on any
+            device<br> anywhere you like!
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="annual-plan-frame">
+
+        <div>
+          <img class="music-icon" src="images/icon-music.png">
+        </div>
+        
+        <div class="change">
+          <a href="#">Change</a>
+        </div> 
+
+      <div id="annual-price">
+
+        <div class="annual-plan">
+          Annual Plan
+        </div>
+
+        <div class="price">
+          $59.99/year
+        </div>
+      
+      </div>
+
+    </div>
+
+      <div class="accept-button">
+        proceed to Payment
+      </div>
+
+      <div class="cancel-button">
+        Cancel Order
+      </div>
+    
+  </section>
+
+  </main>
+  
+  <div class="end">
+    Coded by Parsa
+  </div>
+</body>
+</html>
